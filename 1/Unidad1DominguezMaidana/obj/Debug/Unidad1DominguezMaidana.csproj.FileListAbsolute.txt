@@ -1,0 +1,8 @@
+C:\Users\Hernán Maidana\source\repos\Unidad1DominguezMaidana\bin\Debug\Unidad1DominguezMaidana.exe.config
+C:\Users\Hernán Maidana\source\repos\Unidad1DominguezMaidana\bin\Debug\Unidad1DominguezMaidana.exe
+C:\Users\Hernán Maidana\source\repos\Unidad1DominguezMaidana\bin\Debug\Unidad1DominguezMaidana.pdb
+C:\Users\Hernán Maidana\source\repos\Unidad1DominguezMaidana\obj\Debug\Unidad1DominguezMaidana.csproj.AssemblyReference.cache
+C:\Users\Hernán Maidana\source\repos\Unidad1DominguezMaidana\obj\Debug\Unidad1DominguezMaidana.csproj.SuggestedBindingRedirects.cache
+C:\Users\Hernán Maidana\source\repos\Unidad1DominguezMaidana\obj\Debug\Unidad1DominguezMaidana.csproj.CoreCompileInputs.cache
+C:\Users\Hernán Maidana\source\repos\Unidad1DominguezMaidana\obj\Debug\Unidad1DominguezMaidana.exe
+C:\Users\Hernán Maidana\source\repos\Unidad1DominguezMaidana\obj\Debug\Unidad1DominguezMaidana.pdb
