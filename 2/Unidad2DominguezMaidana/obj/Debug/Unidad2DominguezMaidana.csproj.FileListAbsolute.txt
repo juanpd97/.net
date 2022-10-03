@@ -1,0 +1,16 @@
+C:\Users\juanp\OneDrive\Escritorio\Unidad2DominguezMaidana\Unidad2DominguezMaidana\Unidad2DominguezMaidana\bin\Debug\Unidad2DominguezMaidana.exe.config
+C:\Users\juanp\OneDrive\Escritorio\Unidad2DominguezMaidana\Unidad2DominguezMaidana\Unidad2DominguezMaidana\bin\Debug\Unidad2DominguezMaidana.exe
+C:\Users\juanp\OneDrive\Escritorio\Unidad2DominguezMaidana\Unidad2DominguezMaidana\Unidad2DominguezMaidana\bin\Debug\Unidad2DominguezMaidana.pdb
+C:\Users\juanp\OneDrive\Escritorio\Unidad2DominguezMaidana\Unidad2DominguezMaidana\Unidad2DominguezMaidana\obj\Debug\Unidad2DominguezMaidana.csproj.AssemblyReference.cache
+C:\Users\juanp\OneDrive\Escritorio\Unidad2DominguezMaidana\Unidad2DominguezMaidana\Unidad2DominguezMaidana\obj\Debug\Unidad2DominguezMaidana.csproj.SuggestedBindingRedirects.cache
+C:\Users\juanp\OneDrive\Escritorio\Unidad2DominguezMaidana\Unidad2DominguezMaidana\Unidad2DominguezMaidana\obj\Debug\Unidad2DominguezMaidana.csproj.CoreCompileInputs.cache
+C:\Users\juanp\OneDrive\Escritorio\Unidad2DominguezMaidana\Unidad2DominguezMaidana\Unidad2DominguezMaidana\obj\Debug\Unidad2DominguezMaidana.exe
+C:\Users\juanp\OneDrive\Escritorio\Unidad2DominguezMaidana\Unidad2DominguezMaidana\Unidad2DominguezMaidana\obj\Debug\Unidad2DominguezMaidana.pdb
+D:\New folder\utn\tuti\.net\practica\2\Unidad2DominguezMaidana\bin\Debug\Unidad2DominguezMaidana.exe.config
+D:\New folder\utn\tuti\.net\practica\2\Unidad2DominguezMaidana\bin\Debug\Unidad2DominguezMaidana.exe
+D:\New folder\utn\tuti\.net\practica\2\Unidad2DominguezMaidana\bin\Debug\Unidad2DominguezMaidana.pdb
+D:\New folder\utn\tuti\.net\practica\2\Unidad2DominguezMaidana\obj\Debug\Unidad2DominguezMaidana.csproj.AssemblyReference.cache
+D:\New folder\utn\tuti\.net\practica\2\Unidad2DominguezMaidana\obj\Debug\Unidad2DominguezMaidana.csproj.SuggestedBindingRedirects.cache
+D:\New folder\utn\tuti\.net\practica\2\Unidad2DominguezMaidana\obj\Debug\Unidad2DominguezMaidana.csproj.CoreCompileInputs.cache
+D:\New folder\utn\tuti\.net\practica\2\Unidad2DominguezMaidana\obj\Debug\Unidad2DominguezMaidana.exe
+D:\New folder\utn\tuti\.net\practica\2\Unidad2DominguezMaidana\obj\Debug\Unidad2DominguezMaidana.pdb
