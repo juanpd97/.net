@@ -1,8 +1,0 @@
-D:\New folder\utn\tuti\.net\practica\2\unidad 2\unidad 2\bin\Debug\unidad 2.exe.config
-D:\New folder\utn\tuti\.net\practica\2\unidad 2\unidad 2\bin\Debug\unidad 2.exe
-D:\New folder\utn\tuti\.net\practica\2\unidad 2\unidad 2\bin\Debug\unidad 2.pdb
-D:\New folder\utn\tuti\.net\practica\2\unidad 2\unidad 2\obj\Debug\unidad 2.csproj.AssemblyReference.cache
-D:\New folder\utn\tuti\.net\practica\2\unidad 2\unidad 2\obj\Debug\unidad 2.csproj.SuggestedBindingRedirects.cache
-D:\New folder\utn\tuti\.net\practica\2\unidad 2\unidad 2\obj\Debug\unidad 2.csproj.CoreCompileInputs.cache
-D:\New folder\utn\tuti\.net\practica\2\unidad 2\unidad 2\obj\Debug\unidad 2.exe
-D:\New folder\utn\tuti\.net\practica\2\unidad 2\unidad 2\obj\Debug\unidad 2.pdb
