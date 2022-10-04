@@ -1,0 +1,8 @@
+D:\New folder\utn\tuti\.net\practica\3\ejercicio 3\ejercicio 3\bin\Debug\ejercicio 3.exe.config
+D:\New folder\utn\tuti\.net\practica\3\ejercicio 3\ejercicio 3\bin\Debug\ejercicio 3.exe
+D:\New folder\utn\tuti\.net\practica\3\ejercicio 3\ejercicio 3\bin\Debug\ejercicio 3.pdb
+D:\New folder\utn\tuti\.net\practica\3\ejercicio 3\ejercicio 3\obj\Debug\ejercicio 3.csproj.AssemblyReference.cache
+D:\New folder\utn\tuti\.net\practica\3\ejercicio 3\ejercicio 3\obj\Debug\ejercicio 3.csproj.SuggestedBindingRedirects.cache
+D:\New folder\utn\tuti\.net\practica\3\ejercicio 3\ejercicio 3\obj\Debug\ejercicio 3.csproj.CoreCompileInputs.cache
+D:\New folder\utn\tuti\.net\practica\3\ejercicio 3\ejercicio 3\obj\Debug\ejercicio 3.exe
+D:\New folder\utn\tuti\.net\practica\3\ejercicio 3\ejercicio 3\obj\Debug\ejercicio 3.pdb
