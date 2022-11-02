@@ -1,0 +1,8 @@
+D:\New folder\utn\tuti\.net\practica\5\Unidad5DominguezMaidana\Unidad5DominguezMaidana\bin\Debug\Unidad5DominguezMaidana.exe.config
+D:\New folder\utn\tuti\.net\practica\5\Unidad5DominguezMaidana\Unidad5DominguezMaidana\bin\Debug\Unidad5DominguezMaidana.exe
+D:\New folder\utn\tuti\.net\practica\5\Unidad5DominguezMaidana\Unidad5DominguezMaidana\bin\Debug\Unidad5DominguezMaidana.pdb
+D:\New folder\utn\tuti\.net\practica\5\Unidad5DominguezMaidana\Unidad5DominguezMaidana\obj\Debug\Unidad5DominguezMaidana.csproj.AssemblyReference.cache
+D:\New folder\utn\tuti\.net\practica\5\Unidad5DominguezMaidana\Unidad5DominguezMaidana\obj\Debug\Unidad5DominguezMaidana.csproj.SuggestedBindingRedirects.cache
+D:\New folder\utn\tuti\.net\practica\5\Unidad5DominguezMaidana\Unidad5DominguezMaidana\obj\Debug\Unidad5DominguezMaidana.csproj.CoreCompileInputs.cache
+D:\New folder\utn\tuti\.net\practica\5\Unidad5DominguezMaidana\Unidad5DominguezMaidana\obj\Debug\Unidad5DominguezMaidana.exe
+D:\New folder\utn\tuti\.net\practica\5\Unidad5DominguezMaidana\Unidad5DominguezMaidana\obj\Debug\Unidad5DominguezMaidana.pdb
