@@ -187,9 +187,9 @@ namespace TPDominguezMaidana
                     Console.WriteLine("error");
                 }
             }
-        }//no pude hacer esta funcion
+        }
 
-        public static void modificarAtributoMarca(ArrayList listaMarcas,int pos)//no pude hacer esta funcion
+        public static void modificarAtributoMarca(ArrayList listaMarcas,int pos)
         {
             Console.WriteLine();
             Console.WriteLine("1- codigo");
@@ -212,8 +212,17 @@ namespace TPDominguezMaidana
                     break;
 
                 case 2:
+                    string nuevoNombre;
+                    Console.Write("ingrese el nuevo nombre: ");
+                    nuevoNombre = Console.ReadLine();
+                    ((Marca)listaMarcas[pos - 1]).setNombre(nuevoNombre);
                     break;
+
                 case 3:
+                    string nuevaDescripcion;
+                    Console.Write("ingrese la nueva descripcion:");
+                    nuevaDescripcion = Console.ReadLine();
+                    ((Marca)listaMarcas[pos - 1]).setDescripcion(nuevaDescripcion);
                     break;
                 default:
                     Console.WriteLine("error");
@@ -385,8 +394,10 @@ namespace TPDominguezMaidana
             }
         }
 
-        public static void altaPoducto(ArrayList listaProductos, ArrayList listaMarcas, ArrayList listaProvedores)//tampoco me anda
+        public static void altaPoducto(ArrayList listaProductos, ArrayList listaMarcas, ArrayList listaProvedores)
         {
+            if ( (listaMarcas.Count>0) && (listaProvedores.Count>0) )
+            {
             int codigo;
             string nombre;
             string caracteristicas;
@@ -401,22 +412,55 @@ namespace TPDominguezMaidana
             caracteristicas = Console.ReadLine();
 
 
-            
+            int opcion;
+
             Console.WriteLine("seleccione una marca");
             mostrarMarcas(listaMarcas);
             Console.Write("   -opcion: ");
-            int opcionMarca;
-            opcionMarca = NumeroEntero();
+            opcion= NumeroEntero();
+            unaMarca = (Marca)listaMarcas[opcion - 1];
 
-            unaMarca = (Marca)listaMarcas[opcionMarca - 1];   //ver si eso anda bien
+            bool agregarProveedor = true;
+            string otroProveedor;
+            while (agregarProveedor)
+            {
+                Console.WriteLine("selecciones un proveedor");
+                mostrarProveedor(listaProvedores);
+                Console.Write("   -opcion: ");
+                opcion = NumeroEntero();
+                proveedores.Add(listaProvedores[opcion-1]);
 
-
-            // falta agregar los proveedores
-
+                bool bucle = true;
+                while (bucle)
+                {
+                    Console.Write("¿desea agregar otro proveedor? (si/no): ");
+                    otroProveedor = Console.ReadLine();
+                    if (otroProveedor == "no")
+                    {
+                        agregarProveedor = false;
+                        bucle = false;
+                    }
+                    else if(otroProveedor != "si")
+                    {
+                        Console.WriteLine("error d");
+                    }
+                }
+                }
+           
             Producto nuevoProducto;
             nuevoProducto = new Producto(codigo,nombre,caracteristicas,unaMarca,proveedores);
             listaProductos.Add(nuevoProducto);
 
+            } else if (listaMarcas.Count == 0 && listaProvedores.Count == 0)
+            {
+                Console.WriteLine("Error, debe registrar al menos una marca y un proveedor");
+            } else if (listaMarcas.Count == 0)
+            {
+                Console.WriteLine("Error, debe registrar al menos una marca");
+            } else if (listaProvedores.Count == 0)
+            {
+                Console.WriteLine("Error, debe registrar al menos un proveedor");
+            }
         }
 
         public static void mostrarProducto(ArrayList listaProductos)

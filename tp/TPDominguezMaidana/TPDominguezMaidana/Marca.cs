@@ -9,7 +9,7 @@ namespace TPDominguezMaidana
     internal class Marca
     {
         private int codigo { get; set; }
-        private string nombre{ get; set; }
+        private string nombre { get; set; }
         private string descripcion { get; set; }
 
 
@@ -41,7 +41,15 @@ namespace TPDominguezMaidana
         {
             this.codigo = cod;
         }
+        public void setNombre(string nom)
+        {
+            this.nombre = nom;
+        }
 
+        public void setDescripcion(string desc)
+        {
+            this.descripcion= desc;
+        }
 
 
 
