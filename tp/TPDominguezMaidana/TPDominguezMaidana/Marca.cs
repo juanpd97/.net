@@ -32,5 +32,18 @@ namespace TPDominguezMaidana
                        " descripcion:" + descripcion.ToString();
             return x;
         }
+
+
+
+
+        // metodos
+        public void setCodigo(int cod)
+        {
+            this.codigo = cod;
+        }
+
+
+
+
     }
 }

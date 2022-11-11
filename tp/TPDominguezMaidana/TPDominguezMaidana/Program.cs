@@ -33,9 +33,11 @@ namespace TPDominguezMaidana
                         break;
 
                     case 2://Proveedor
+                        menuProveedor(listaProvedores);
                         break;
 
                     case 3://Producto
+                        menuProductos(listaProductos, listaMarcas, listaProvedores);
                         break;
 
                     case 4://salgo del programa
@@ -169,7 +171,7 @@ namespace TPDominguezMaidana
 
             if (listaMarcas.Count == 0)
             {
-                mostrarMarcas(listaMarcas);
+                Console.WriteLine("no hay marcas registradas");
             }
             else
             {
@@ -178,14 +180,284 @@ namespace TPDominguezMaidana
                 opcion = NumeroEntero();
                 if ((opcion > 0) && (opcion <= listaMarcas.Count))
                 {
-                    //crear una funcion y pasarle la opcion para ver que atributo le quiero modificar
+                    modificarAtributoMarca(listaMarcas,opcion);
                 }
                 else
                 {
                     Console.WriteLine("error");
                 }
             }
+        }//no pude hacer esta funcion
+
+        public static void modificarAtributoMarca(ArrayList listaMarcas,int pos)//no pude hacer esta funcion
+        {
+            Console.WriteLine();
+            Console.WriteLine("1- codigo");
+            Console.WriteLine("2- nombre");
+            Console.WriteLine("3- descripcion");
+            Console.Write("atributo que desea modificar:");
+
+            int opcion;
+            opcion = NumeroEntero();
+
+            switch (opcion)
+            {
+                case 1:
+                    
+                    int nuevoCodigo;
+                    Console.Write("ingrese el nuevo codigo: ");
+                    nuevoCodigo = NumeroEntero();
+                    ((Marca)listaMarcas[pos-1]).setCodigo(nuevoCodigo);
+
+                    break;
+
+                case 2:
+                    break;
+                case 3:
+                    break;
+                default:
+                    Console.WriteLine("error");
+                    break;
+            }
         }
+
+        public static void menuProveedor(ArrayList listaProvedores)
+        {
+            bool menu = true;
+            int opcion;
+
+            while (menu)
+            {
+                Console.WriteLine();
+                Console.WriteLine("----- Proveedor -----");
+                menu2();
+                Console.Write("ingresar opcion: ");
+                opcion = NumeroEntero();
+
+                switch (opcion)
+                {
+                    case 1://muestro todas los proveedores que tengo almacenadas
+                        mostrarProveedor(listaProvedores);
+                        break;
+
+                    case 2://doy de alta un nuevo proveedor
+                        altaProveedor(listaProvedores);
+                        break;
+
+                    case 3://modifico un proveedor
+                       
+                        break;
+
+                    case 4://elimino un proveedor
+
+                        break;
+
+                    case 5://vuelvo al menu principal
+                        menu = false;
+                        break;
+
+                    default:
+                        Console.WriteLine("Opcion invalida");
+                        break;
+                }
+
+            }
+
+        }
+
+        public static void altaProveedor(ArrayList listaProvedores)
+        {
+            Provedor nuevoProveedor;
+
+            int codigo;
+            string nombre;
+            string apellido;
+            string direccion;
+            string ciudad;
+
+            int telefono;
+            bool agregarTelefono = true;
+            string opcionTelefono;
+            bool opcionValida;
+            ArrayList listaTelefonos = new ArrayList();
+
+            Console.Write("-Codigo: ");
+            codigo = NumeroEntero();
+            Console.Write("-Nombre del probveedor: ");
+            nombre = Console.ReadLine();
+            Console.Write("-Apellido del proveedor:");
+            apellido = Console.ReadLine();
+            Console.Write("-Direccion: ");
+            direccion = Console.ReadLine();
+            Console.Write("-Ciudad: ");
+            ciudad = Console.ReadLine();
+
+            while (agregarTelefono)
+            {
+                Console.Write("-Telefono: ");
+                telefono = NumeroEntero();
+                listaTelefonos.Add(telefono);
+
+                opcionValida = true;
+                while (opcionValida) 
+                {
+                    Console.Write("¿desea agregar otro numero de telefono? (si/no): ");
+                    opcionTelefono = Console.ReadLine();
+                    if (opcionTelefono == "no")
+                    {
+                        opcionValida = false;
+                        agregarTelefono = false;
+
+                    }
+                    else if (opcionTelefono == "si")
+                    {
+                        opcionValida = false;
+                    }
+                    else Console.WriteLine("error");
+                }
+            }
+
+            nuevoProveedor = new Provedor(codigo, nombre, apellido, direccion, ciudad, listaTelefonos);
+            listaProvedores.Add(nuevoProveedor);
+
+        }
+
+        public static void mostrarProveedor(ArrayList listaProvedores)
+        {
+            if (listaProvedores.Count > 0)
+            {
+                Console.WriteLine("----- Proveedores -----");
+
+                for (int i = 0; i < listaProvedores.Count; i++)
+                {
+                    Console.WriteLine();
+                    Console.WriteLine("  ---Proveedor " + (i + 1) + " ---");
+                    Console.WriteLine(listaProvedores[i].ToString());
+                }
+            }
+            else
+            {
+                Console.WriteLine();
+                Console.WriteLine("no hay proveedores registrados");
+            }
+        }
+
+        public static void menuProductos(ArrayList listaProductos,ArrayList listaMarcas,ArrayList listaProvedores)
+        {
+            bool menu = true;
+            int opcion;
+
+            while (menu)
+            {
+                Console.WriteLine();
+                Console.WriteLine("----- Producto -----");
+                menu2();
+                Console.Write("ingresar opcion: ");
+                opcion = NumeroEntero();
+
+                switch (opcion)
+                {
+                    case 1://muestro todos los Productos que tengo almacenados
+                        mostrarProducto(listaProductos);
+                        break;
+
+                    case 2://doy de alta un nuevo producto
+                        altaPoducto(listaProductos, listaMarcas, listaProvedores);
+                        break;
+
+                    case 3://modifico un producto
+
+                        break;
+
+                    case 4://elimino un producto
+
+                        break;
+
+                    case 5://vuelvo al menu principal
+                        menu = false;
+                        break;
+
+                    default:
+                        Console.WriteLine("Opcion invalida");
+                        break;
+                }
+
+            }
+        }
+
+        public static void altaPoducto(ArrayList listaProductos, ArrayList listaMarcas, ArrayList listaProvedores)//tampoco me anda
+        {
+            int codigo;
+            string nombre;
+            string caracteristicas;
+            Marca unaMarca;
+            ArrayList proveedores = new ArrayList();
+
+            Console.Write("-Codigo del producto:");
+            codigo = NumeroEntero();
+            Console.Write("-Nombre del producto:");
+            nombre = Console.ReadLine();
+            Console.Write("-Caracteristica del producto:");
+            caracteristicas = Console.ReadLine();
+
+
+            
+            Console.WriteLine("seleccione una marca");
+            mostrarMarcas(listaMarcas);
+            Console.Write("   -opcion: ");
+            int opcionMarca;
+            opcionMarca = NumeroEntero();
+
+            unaMarca = (Marca)listaMarcas[opcionMarca - 1];   //ver si eso anda bien
+
+
+            // falta agregar los proveedores
+
+            Producto nuevoProducto;
+            nuevoProducto = new Producto(codigo,nombre,caracteristicas,unaMarca,proveedores);
+            listaProductos.Add(nuevoProducto);
+
+        }
+
+        public static void mostrarProducto(ArrayList listaProductos)
+        {
+            if (listaProductos.Count > 0)
+            {
+                Console.WriteLine("----- Productos -----");
+
+                for (int i = 0; i < listaProductos.Count; i++)
+                {
+                    Console.WriteLine();
+                    Console.WriteLine("  ---Producto " + (i + 1) + " ---");
+                    Console.WriteLine(listaProductos[i].ToString());
+                }
+            }
+            else
+            {
+                Console.WriteLine();
+                Console.WriteLine("no hay Productos registradas");
+            }
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

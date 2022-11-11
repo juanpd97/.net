@@ -30,11 +30,7 @@ namespace TPDominguezMaidana
             this.apellido = apell;
             this.direccion = dir;
             this.ciudad = ciud;
-
-            foreach (int i in tel)
-            {
-                this.listaTelefonos.Add(tel[i]);
-            }
+            this.listaTelefonos = tel;
 
         }
 
