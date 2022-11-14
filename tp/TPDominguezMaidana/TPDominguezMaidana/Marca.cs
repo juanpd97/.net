@@ -33,9 +33,6 @@ namespace TPDominguezMaidana
             return x;
         }
 
-
-
-
         // metodos
         public void setCodigo(int cod)
         {

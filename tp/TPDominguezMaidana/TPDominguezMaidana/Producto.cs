@@ -26,7 +26,7 @@ namespace TPDominguezMaidana
             this.caracteristicas = carct;
             this.marca = marc;
 
-
+            //sera lo mismo hacer listaProveedores.add(prov);  ??
             for (int i=0; i<prov.Count ; i++)
             {
                 this.listaProveedores.Add(prov[i]);
