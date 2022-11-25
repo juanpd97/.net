@@ -29,11 +29,11 @@ namespace TPDominguezMaidana
                 switch (opcion)//cada opcion me lleva al submenu de la clase
                 {
                     case 1://Marca
-                        menuMarca(listaMarcas);
+                        menuMarca(listaMarcas, listaProductos);
                         break;
 
                     case 2://Proveedor
-                        menuProveedor(listaProvedores);
+                        menuProveedor(listaProvedores, listaProductos);
                         break;
 
                     case 3://Producto
@@ -80,7 +80,7 @@ namespace TPDominguezMaidana
             return numero;
         }
 
-        public static void menuMarca(ArrayList listaMarcas)
+        public static void menuMarca(ArrayList listaMarcas,ArrayList listaProductos)
         {
             
 
@@ -110,7 +110,7 @@ namespace TPDominguezMaidana
                         break;
 
                     case 4://elimino una marca
-                        
+                        eliminarMarca(listaMarcas, listaProductos);
                         break;
 
                     case 5://vuelvo al menu principal
@@ -126,6 +126,39 @@ namespace TPDominguezMaidana
 
         }
 
+        public static void eliminarMarca(ArrayList listaMarcas,ArrayList listaProductos)
+        {
+            int opcion;
+            Console.WriteLine("Seleccione la marca que desea eliminar");
+            mostrarMarcas(listaMarcas);
+            opcion = NumeroEntero();
+            opcion--;
+
+            Marca unaMarca = (Marca)listaMarcas[opcion];
+            bool pertenece;
+
+            pertenece = perteneceMarcaAProducto(unaMarca,listaProductos);
+            if (pertenece)
+            {
+                Console.WriteLine("no es posible eliminar el objeto.");
+            } else
+            {
+                listaMarcas.RemoveAt(opcion);
+            }
+
+        }
+        public static bool perteneceMarcaAProducto(Marca unaMarca,ArrayList listaProductos)
+        {   
+            for (int i=0; i<listaProductos.Count; i++)
+            {
+                if (((Producto)listaProductos[i]).esIgual(unaMarca) )
+                {
+                    return true;
+                }
+            }
+
+            return false;
+        }
         public static void altaMarca(ArrayList listaMarcas)
         {
             Marca nuevaMarca;
@@ -230,7 +263,7 @@ namespace TPDominguezMaidana
             }
         }
 
-        public static void menuProveedor(ArrayList listaProvedores)
+        public static void menuProveedor(ArrayList listaProvedores,ArrayList listaProductos)
         {
             bool menu = true;
             int opcion;
@@ -254,11 +287,11 @@ namespace TPDominguezMaidana
                         break;
 
                     case 3://modifico un proveedor
-                       
+                        modificarProveedor(listaProvedores);
                         break;
 
                     case 4://elimino un proveedor
-
+                        eliminarProveedor(listaProvedores, listaProductos);
                         break;
 
                     case 5://vuelvo al menu principal
@@ -273,7 +306,131 @@ namespace TPDominguezMaidana
             }
 
         }
+        public static void eliminarProveedor(ArrayList listaProvedores, ArrayList listaProductos)
+        {
 
+            int opcion;
+            Console.WriteLine("Seleccione el proveedor que desea eliminar");
+            mostrarProveedor(listaProvedores);
+            opcion = NumeroEntero();
+            opcion--;
+
+            Provedor unProveedor= (Provedor)listaProvedores[opcion];
+            bool pertenece;
+
+            pertenece = perteneceProveedorAProducto(unProveedor, listaProductos);
+            if (pertenece)
+            {
+                Console.WriteLine("no es posible eliminar el objeto.");
+            }
+            else
+            {
+                listaProvedores.RemoveAt(opcion);
+            }
+        }
+        public static bool perteneceProveedorAProducto(Provedor unProveedor,ArrayList listaProductos)
+        {
+            for (int i = 0; i < listaProductos.Count; i++)
+            {
+                if (((Producto)listaProductos[i]).esIgualP(unProveedor))
+                {
+                    return true;
+                }
+            }
+
+            return false;
+        }
+        public static void modificarProveedor(ArrayList listaProvedores)
+        {
+            int opcion;
+            Console.WriteLine("------ Modificar Proveedor -----");
+
+            if (listaProvedores.Count == 0)
+            {
+                Console.WriteLine("no hay proveedores registrados");
+            }
+            else
+            {
+                mostrarProveedor(listaProvedores);
+                Console.Write("ingrese el proveedor que desea modificar: ");
+                opcion = NumeroEntero();
+                if ((opcion > 0) && (opcion <= listaProvedores.Count))
+                {
+                    modificarAtributoProveedor(listaProvedores, opcion);
+                }
+                else
+                {
+                    Console.WriteLine("error");
+                }
+            }
+        }
+        public static void modificarAtributoProveedor(ArrayList listaProvedores, int pos)
+        {
+
+            Console.WriteLine();
+            Console.WriteLine("1- codigo");
+            Console.WriteLine("2- nombre");
+            Console.WriteLine("3- apellido");
+            Console.WriteLine("4- direccion");
+            Console.WriteLine("5- ciudad");
+            Console.WriteLine("6- telefono");
+            Console.Write("atributo que desea modificar:");
+
+            int opcion;
+            opcion = NumeroEntero();
+
+            switch (opcion)
+            {
+                case 1:
+
+                    int nuevoCodigo;
+                    Console.Write("ingrese el nuevo codigo: ");
+                    nuevoCodigo = NumeroEntero();
+                    ((Provedor)listaProvedores[pos - 1]).setCodigo(nuevoCodigo);
+
+                    break;
+
+                case 2:
+                    string nuevoNombre;
+                    Console.Write("ingrese el nuevo nombre: ");
+                    nuevoNombre = Console.ReadLine();
+                    ((Provedor)listaProvedores[pos - 1]).setNombre(nuevoNombre);
+                    break;
+
+                case 3:
+                    string nuevoApellido;
+                    Console.Write("ingrese el nuevo apellido:");
+                    nuevoApellido = Console.ReadLine();
+                    ((Provedor)listaProvedores[pos - 1]).setApellido(nuevoApellido);
+                    break;
+                case 4:
+                    string nuevaDireccion;
+                    Console.Write("ingrese la nueva direccion:");
+                    nuevaDireccion = Console.ReadLine();
+                    ((Provedor)listaProvedores[pos - 1]).setDireccion(nuevaDireccion);
+                    break;
+                case 5:
+                    string nuevaCiudad;
+                    Console.Write("ingrese la nueva ciudad:");
+                    nuevaCiudad = Console.ReadLine();
+                    ((Provedor)listaProvedores[pos - 1]).setCiudad(nuevaCiudad);
+                    break;
+                case 6:
+                    int op,nuevoNumero;
+                    Console.WriteLine(((Provedor)listaProvedores[pos - 1]).nrosDeTelefono());
+                    Console.Write("-que numero desea modificar:");
+                    op = NumeroEntero();
+                    op -= 1;
+                    Console.Write("nuevo numero:");
+                    nuevoNumero = NumeroEntero();
+                    ((Provedor)listaProvedores[pos - 1]).setNroTelefono(op,nuevoNumero);
+                    break;
+                default:
+                    Console.WriteLine("error");
+                    break;
+            }
+
+        }
         public static void altaProveedor(ArrayList listaProvedores)
         {
             Provedor nuevoProveedor;
@@ -375,11 +532,11 @@ namespace TPDominguezMaidana
                         break;
 
                     case 3://modifico un producto
-
+                        modificarProducto(listaProductos, listaMarcas, listaProvedores);
                         break;
 
                     case 4://elimino un producto
-
+                        eliminarProducto(listaProductos);
                         break;
 
                     case 5://vuelvo al menu principal
@@ -393,7 +550,89 @@ namespace TPDominguezMaidana
 
             }
         }
+        public static void eliminarProducto(ArrayList listaProductos)
+        {
 
+            int opcion;
+            Console.WriteLine("Seleccione el producto que desea eliminar");
+            mostrarProducto(listaProductos);
+            opcion = NumeroEntero();
+            opcion--;
+
+            listaProductos.RemoveAt(opcion);
+        }
+        public static void modificarProducto(ArrayList listaProductos, ArrayList listaMarcas,ArrayList listaProvedores)
+        {
+            int opcion;
+            Console.WriteLine("------ Modificar Producto -----");
+
+            if (listaProductos.Count == 0)
+            {
+                Console.WriteLine("no hay productos registrados");
+            }
+            else
+            {
+                mostrarProducto(listaProductos);
+                Console.Write("ingrese el proveedor que desea modificar: ");
+                opcion = NumeroEntero();
+                if ((opcion > 0) && (opcion <= listaProductos.Count))
+                {
+                    modificarAtributoProducto(listaProductos, opcion);
+                }
+                else
+                {
+                    Console.WriteLine("error");
+                }
+            }
+        }
+
+        public static void modificarAtributoProducto(ArrayList listaProductos, int pos)
+        {
+
+            Console.WriteLine();
+            Console.WriteLine("1- codigo");
+            Console.WriteLine("2- nombre");
+            Console.WriteLine("3- caracteristicas");
+            Console.WriteLine("4- marca");
+            Console.WriteLine("5- proveedor");
+            Console.Write("atributo que desea modificar:");
+
+            int opcion;
+            opcion = NumeroEntero();
+
+            switch (opcion)
+            {
+                case 1:
+
+                    int nuevoCodigo;
+                    Console.Write("ingrese el nuevo codigo: ");
+                    nuevoCodigo = NumeroEntero();
+                    ((Producto)listaProductos[pos - 1]).setCodigo(nuevoCodigo);
+
+                    break;
+
+                case 2:
+                    string nuevoNombre;
+                    Console.Write("ingrese el nuevo nombre: ");
+                    nuevoNombre = Console.ReadLine();
+                    ((Producto)listaProductos[pos - 1]).setNombre(nuevoNombre);
+                    break;
+
+                case 3:
+                    string nuevaCaracteristica;
+                    Console.Write("ingrese la nueva caracteristica:");
+                    nuevaCaracteristica = Console.ReadLine();
+                    ((Producto)listaProductos[pos - 1]).setCaracteristica(nuevaCaracteristica);
+                    break;
+                case 4://marca
+                    break;
+                case 5://proveedor
+                    break;
+                default:
+                    Console.WriteLine("error");
+                    break;
+            }
+        }
         public static void altaPoducto(ArrayList listaProductos, ArrayList listaMarcas, ArrayList listaProvedores)
         {
             if ( (listaMarcas.Count>0) && (listaProvedores.Count>0) )
@@ -440,10 +679,13 @@ namespace TPDominguezMaidana
                         agregarProveedor = false;
                         bucle = false;
                     }
-                    else if(otroProveedor != "si")
+                    else if(otroProveedor == "si")
                     {
-                        Console.WriteLine("error d");
-                    }
+                            bucle = false; 
+                    } else if (otroProveedor != "si" && otroProveedor != "no")
+                        {
+                            Console.WriteLine("error de opcion");
+                        }
                 }
                 }
            

@@ -54,6 +54,49 @@ namespace TPDominguezMaidana
             return x;
         }
    
+        //metodo para mostrar solamente los numeros de telefonos
+        public string nrosDeTelefono()
+        {
+            string s;
+            string x = "";
+
+            for (int i = 0; i < listaTelefonos.Count; i++)
+            {
+                s = " telefono " + (i + 1) + ":" + listaTelefonos[i].ToString();
+                x += s;
+            }
+
+            return x;
+        }
+
+        //setters
+        public void setNroTelefono(int op,int nuevoNumero)
+        {
+            this.listaTelefonos[op] = nuevoNumero;
+        }
+        public void setCodigo(int nuevoCodigo)
+        {
+            this.codigo = nuevoCodigo;
+        }
+        public void setNombre(string nuevoNombre)
+        {
+            this.nombre = nuevoNombre;
+        }
+        public void setApellido(string nuevoApellido)
+        {
+            this.apellido = nuevoApellido;
+        }
+        public void setDireccion(string nuevaDireccion)
+        {
+            this.direccion = nuevaDireccion;
+        }
+        public void setCiudad(string nuevaCiudad)
+        {
+            this.ciudad = nuevaCiudad;
+        }
+        
+        
+    
     
     }
 }

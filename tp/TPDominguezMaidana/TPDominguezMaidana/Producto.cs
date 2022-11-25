@@ -51,5 +51,42 @@ namespace TPDominguezMaidana
             return x;
         }
 
+        //setters
+        public void setCodigo(int nuevoCodigo)
+        {
+            this.codigo = nuevoCodigo;
+        }
+        public void setNombre(string nuevoNombre)
+        {
+            this.nombre = nuevoNombre;
+        }
+        public void setCaracteristica(string nuevaCaracteristica)
+        {
+            this.caracteristicas = nuevaCaracteristica;
+        }
+
+        //getters
+        public Marca getMarca()
+        {
+            return (Marca)marca;
+        }
+
+        //otros metodos
+        public bool esIgual(Marca m)
+        {
+            return marca.Equals(m);
+        }
+        public bool esIgualP(Provedor p)
+        {
+            for (int i=0; i<listaProveedores.Count ;i++)
+            {
+                if (listaProveedores[i].Equals(p))
+                {
+                    return true;
+                }
+            }
+            return false;
+        }
+
     }
 }
