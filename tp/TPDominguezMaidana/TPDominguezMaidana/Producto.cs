@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -64,7 +65,19 @@ namespace TPDominguezMaidana
         {
             this.caracteristicas = nuevaCaracteristica;
         }
+        public void setMarca(Marca x)
+        {
+            this.marca = x;
+        }
+        public void setProvedor(ArrayList x)
+        {
+            listaProveedores = new ArrayList();
 
+            for (int i = 0; i < x.Count; i++)
+            {
+                listaProveedores.Add(x[i]);
+            }
+        }
         //getters
         public Marca getMarca()
         {

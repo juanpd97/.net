@@ -577,7 +577,7 @@ namespace TPDominguezMaidana
                 opcion = NumeroEntero();
                 if ((opcion > 0) && (opcion <= listaProductos.Count))
                 {
-                    modificarAtributoProducto(listaProductos, opcion);
+                    modificarAtributoProducto(listaProductos, opcion, listaMarcas, listaProvedores);
                 }
                 else
                 {
@@ -586,7 +586,7 @@ namespace TPDominguezMaidana
             }
         }
 
-        public static void modificarAtributoProducto(ArrayList listaProductos, int pos)
+        public static void modificarAtributoProducto(ArrayList listaProductos, int pos,ArrayList listaMarcas,ArrayList listaProvedores)
         {
 
             Console.WriteLine();
@@ -625,8 +625,56 @@ namespace TPDominguezMaidana
                     ((Producto)listaProductos[pos - 1]).setCaracteristica(nuevaCaracteristica);
                     break;
                 case 4://marca
+                    Console.WriteLine("Modificar Marca:");
+                    mostrarMarcas(listaMarcas);
+                    Console.Write("seleccione una nueva marca: ");
+                    int op;
+                    op = NumeroEntero();
+                    op--;
+
+                    Marca nuevaMarca;
+                    nuevaMarca = ((Marca)listaMarcas[op]).getMarca();
+                    ((Producto)listaProductos[pos - 1]).setMarca(nuevaMarca);
+
                     break;
-                case 5://proveedor
+                case 5://proveedor-------------------------
+                    Console.WriteLine("Modificar Proveedores");
+
+                    ArrayList nuevosProveedores = new ArrayList();
+
+                    bool agregarProveedor = true;
+                    string otroProveedor;
+                    while (agregarProveedor)
+                    {
+                        Console.WriteLine("selecciones un nuevo proveedor");
+                        mostrarProveedor(listaProvedores);
+                        Console.Write("   -opcion: ");
+                        opcion = NumeroEntero();
+                        nuevosProveedores.Add(listaProvedores[opcion - 1]);
+
+                        bool bucle = true;
+                        while (bucle)
+                        {
+                            Console.Write("¿desea agregar otro proveedor? (si/no): ");
+                            otroProveedor = Console.ReadLine();
+                            if (otroProveedor == "no")
+                            {
+                                agregarProveedor = false;
+                                bucle = false;
+                            }
+                            else if (otroProveedor == "si")
+                            {
+                                bucle = false;
+                            }
+                            else if (otroProveedor != "si" && otroProveedor != "no")
+                            {
+                                Console.WriteLine("error de opcion");
+                            }
+                        }
+                    }
+
+                    ((Producto)listaProductos[pos - 1]).setProvedor(nuevosProveedores);
+
                     break;
                 default:
                     Console.WriteLine("error");
