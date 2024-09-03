@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CRUD-GPT")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+36c534477b129a297dac5d6e6c615d7449fa2cb7")]
 [assembly: System.Reflection.AssemblyProductAttribute("CRUD-GPT")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CRUD-GPT")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

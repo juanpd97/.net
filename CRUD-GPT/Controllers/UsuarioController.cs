@@ -165,5 +165,35 @@ namespace CRUD_GPT.Controllers
             };
 
         }
+    
+        public void editarUsuario(int id,string nombre,string apellido,int edad)
+        {
+            using (SqlConnection conexion = db.GetSqlConnection()) 
+            {
+                using (SqlCommand cmd = new SqlCommand()) {
+                    string query = "UPDATE Usuario SET nombre = @nombre, apellido = @apellido, edad = @edad WHERE id = @id";
+
+                    cmd.CommandText = query;
+                    cmd.Connection = conexion;
+                    cmd.Parameters.AddWithValue("@nombre", nombre);
+                    cmd.Parameters.AddWithValue("@apellido", apellido);
+                    cmd.Parameters.AddWithValue("@edad", edad);
+                    cmd.Parameters.AddWithValue("@id", id);
+
+                    
+
+                    try
+                    {
+                        conexion.Open();
+                        cmd.ExecuteNonQuery();
+                    }
+                    catch(SqlException ex)
+                    {
+                        MessageBox.Show("error:" + ex);
+                    }
+
+                }
+            }
+        }
     }
 }

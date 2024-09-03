@@ -46,8 +46,20 @@ namespace CRUD_GPT.Views
 
         private void btnEliminar_Click(object sender, EventArgs e)
         {
-            int id= Convert.ToInt32(txtId.Text);
+            int id = Convert.ToInt32(txtId.Text);
             usuarioController.eliminarUsuario(id);
+        }
+
+        private void btnModificar_Click(object sender, EventArgs e)
+        {
+            int id = Convert.ToInt32(txtId.Text);
+            int edad = Convert.ToInt32(txtEdad.Text);
+            usuarioController.editarUsuario(id, txtApellido.Text, txtNombre.Text, edad);
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }

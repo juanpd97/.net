@@ -22,3 +22,4 @@ C:\Users\juanp\OneDrive\Escritorio\prueba crud\Crud-Gpt\CRUD-GPT\obj\Debug\net6.
 C:\Users\juanp\OneDrive\Escritorio\prueba crud\Crud-Gpt\CRUD-GPT\obj\Debug\net6.0-windows\CRUD-GPT.genruntimeconfig.cache
 C:\Users\juanp\OneDrive\Escritorio\prueba crud\Crud-Gpt\CRUD-GPT\obj\Debug\net6.0-windows\ref\CRUD-GPT.dll
 C:\Users\juanp\OneDrive\Escritorio\prueba crud\Crud-Gpt\CRUD-GPT\obj\Debug\net6.0-windows\CRUD_GPT.Views.vistaPrincipal.resources
+C:\Users\juanp\OneDrive\Escritorio\prueba crud\Crud-Gpt\CRUD-GPT\obj\Debug\net6.0-windows\CRUD-GPT.sourcelink.json

@@ -64,6 +64,7 @@
             dataGridView1.RowTemplate.Height = 29;
             dataGridView1.Size = new Size(608, 306);
             dataGridView1.TabIndex = 1;
+            dataGridView1.CellContentClick += dataGridView1_CellContentClick;
             // 
             // labelNombre
             // 
@@ -137,6 +138,7 @@
             btnModificar.TabIndex = 10;
             btnModificar.Text = "modificar";
             btnModificar.UseVisualStyleBackColor = true;
+            btnModificar.Click += btnModificar_Click;
             // 
             // btnEliminar
             // 
