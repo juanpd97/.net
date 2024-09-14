@@ -1,0 +1,282 @@
+/*
+CREATE TABLE Cliente (
+    id INT IDENTITY(1,1) PRIMARY KEY,
+    nombre VARCHAR(15),
+    apellido VARCHAR(50),
+    edad TINYINT,
+    dni VARCHAR(20) UNIQUE,
+    telefono BIGINT,
+    fechaNacimiento DATE
+);
+
+CREATE TABLE Producto (
+    id INT IDENTITY(1,1) PRIMARY KEY,
+    nombre VARCHAR(50),
+    precio DECIMAL(10, 2)  -- Permite manejar decimales con precisión
+);
+
+CREATE TABLE Factura (
+    id INT IDENTITY(1,1) PRIMARY KEY,
+    ClienteId INT,
+    fecha DATE DEFAULT GETDATE(), -- En SQL Server se usa GETDATE() para obtener la fecha actual
+    iva DECIMAL(10, 2),
+    subtotal DECIMAL(10, 2),
+    total DECIMAL(10, 2),
+    FOREIGN KEY (ClienteId) REFERENCES Cliente(id) -- Relación con Cliente
+);
+
+CREATE TABLE FacturaDetalles (
+    id INT IDENTITY(1,1) PRIMARY KEY,
+    FacturaId INT,
+    ProductoId INT,
+    cantidad INT,
+    precio DECIMAL(10, 2),  -- Precio tomado del producto al momento de generar la factura
+    subtotal DECIMAL(10, 2),  -- Precio * cantidad
+    iva DECIMAL(10, 2),  -- IVA aplicado
+    total DECIMAL(10, 2),  -- Subtotal + IVA
+    FOREIGN KEY (FacturaId) REFERENCES Factura(id), -- Relación con Factura
+    FOREIGN KEY (ProductoId) REFERENCES Producto(id) -- Relación con Producto
+);
+
+*/
+------ store procedure cliente ----------
+/*
+CREATE PROCEDURE spInsertarCliente
+    @Nombre VARCHAR(15),
+    @Apellido VARCHAR(50),
+    @Edad TINYINT,
+    @DNI VARCHAR(20),
+    @Telefono BIGINT,
+    @FechaNacimiento DATE
+AS
+BEGIN
+    INSERT INTO Cliente (nombre, apellido, edad, dni, telefono, fechaNacimiento)
+    VALUES (@Nombre, @Apellido, @Edad, @DNI, @Telefono, @FechaNacimiento);
+END
+*/
+/*----------------------
+CREATE PROCEDURE spLeerClientes
+AS
+BEGIN
+    SELECT * FROM Cliente;
+END
+-------------------------------*/
+
+/*-----------------------------
+CREATE PROCEDURE spLeerClientePorId
+    @Id INT
+AS
+BEGIN
+    SELECT * FROM Cliente WHERE id = @Id;
+END
+------------------------------*/
+
+/*----------------------------------
+CREATE PROCEDURE spActualizarCliente
+    @Id INT,
+    @Nombre VARCHAR(15),
+    @Apellido VARCHAR(50),
+    @Edad TINYINT,
+    @DNI VARCHAR(20),
+    @Telefono BIGINT,
+    @FechaNacimiento DATE
+AS
+BEGIN
+    UPDATE Cliente
+    SET nombre = @Nombre,
+        apellido = @Apellido,
+        edad = @Edad,
+        dni = @DNI,
+        telefono = @Telefono,
+        fechaNacimiento = @FechaNacimiento
+    WHERE id = @Id;
+END
+
+---------------------------------------------*/
+
+/* -------------------------------------------
+CREATE PROCEDURE spEliminarCliente
+    @Id INT
+AS
+BEGIN
+    DELETE FROM Cliente WHERE id = @Id;
+END
+-------------------------------------------------*/ 
+
+
+
+--  --------------------- PRODUCTO- -------------------------
+/*
+CREATE PROCEDURE spInsertarProducto
+    @Nombre VARCHAR(50),
+    @Precio DECIMAL(10, 2)
+AS
+BEGIN
+    INSERT INTO Producto (nombre, precio)
+    VALUES (@Nombre, @Precio);
+END
+----------------------------------------------*/
+
+/*-----------------------------------------
+CREATE PROCEDURE spLeerProductos
+AS
+BEGIN
+    SELECT * FROM Producto;
+END
+------------------------------------------*/
+
+/*----------------------------------------
+CREATE PROCEDURE spLeerProductoPorId
+    @Id INT
+AS
+BEGIN
+    SELECT * FROM Producto WHERE id = @Id;
+END
+------------------------------------------- */
+
+/*--------------------------------------
+CREATE PROCEDURE spActualizarProducto
+    @Id INT,
+    @Nombre VARCHAR(50),
+    @Precio DECIMAL(10, 2)
+AS
+BEGIN
+    UPDATE Producto
+    SET nombre = @Nombre,
+        precio = @Precio
+    WHERE id = @Id;
+END
+---------------------------- */
+/*
+CREATE PROCEDURE spEliminarProducto
+    @Id INT
+AS
+BEGIN
+    DELETE FROM Producto WHERE id = @Id;
+END
+
+-------------------------------------*/
+
+
+
+
+------------------FACTURA---------------------
+/*
+CREATE PROCEDURE spInsertarFactura
+    @ClienteId INT,
+    @Iva DECIMAL(10, 2),
+    @Subtotal DECIMAL(10, 2),
+    @Total DECIMAL(10, 2)
+AS
+BEGIN
+    INSERT INTO Factura (ClienteId, iva, subtotal, total)
+    VALUES (@ClienteId, @Iva, @Subtotal, @Total);
+END
+---------------------------*/
+/*
+CREATE PROCEDURE spLeerFacturas
+AS
+BEGIN
+    SELECT * FROM Factura;
+END
+---------------------------------*/
+/*
+CREATE PROCEDURE spLeerFacturaPorId
+    @Id INT
+AS
+BEGIN
+    SELECT * FROM Factura WHERE id = @Id;
+END
+-----------------------*/
+/*
+CREATE PROCEDURE spActualizarFactura
+    @Id INT,
+    @ClienteId INT,
+    @Iva DECIMAL(10, 2),
+    @Subtotal DECIMAL(10, 2),
+    @Total DECIMAL(10, 2)
+AS
+BEGIN
+    UPDATE Factura
+    SET ClienteId = @ClienteId,
+        iva = @Iva,
+        subtotal = @Subtotal,
+        total = @Total
+    WHERE id = @Id;
+END
+-----------------------------------------------*/
+/*
+CREATE PROCEDURE spEliminarFactura
+    @Id INT
+AS
+BEGIN
+    DELETE FROM Factura WHERE id = @Id;
+END
+--------------------------------------------------------*/
+
+
+------------------------- FACTURADETALLES ------------------------------
+/*
+CREATE PROCEDURE spInsertarFacturaDetalles
+    @FacturaId INT,
+    @ProductoId INT,
+    @Cantidad INT,
+    @Precio DECIMAL(10, 2),
+    @Subtotal DECIMAL(10, 2),
+    @Iva DECIMAL(10, 2),
+    @Total DECIMAL(10, 2)
+AS
+BEGIN
+    INSERT INTO FacturaDetalles (FacturaId, ProductoId, cantidad, precio, subtotal, iva, total)
+    VALUES (@FacturaId, @ProductoId, @Cantidad, @Precio, @Subtotal, @Iva, @Total);
+END
+
+------------------------------------------------------- */
+/*
+CREATE PROCEDURE spLeerFacturaDetalles
+AS
+BEGIN
+    SELECT * FROM FacturaDetalles;
+END
+--------------------------------------------------*/
+/*
+CREATE PROCEDURE spLeerFacturaDetallesPorFacturaId
+    @FacturaId INT
+AS
+BEGIN
+    SELECT * FROM FacturaDetalles WHERE FacturaId = @FacturaId;
+END
+---------------------------------------------------- */
+/*
+CREATE PROCEDURE spActualizarFacturaDetalles
+    @Id INT,
+    @FacturaId INT,
+    @ProductoId INT,
+    @Cantidad INT,
+    @Precio DECIMAL(10, 2),
+    @Subtotal DECIMAL(10, 2),
+    @Iva DECIMAL(10, 2),
+    @Total DECIMAL(10, 2)
+AS
+BEGIN
+    UPDATE FacturaDetalles
+    SET FacturaId = @FacturaId,
+        ProductoId = @ProductoId,
+        cantidad = @Cantidad,
+        precio = @Precio,
+        subtotal = @Subtotal,
+        iva = @Iva,
+        total = @Total
+    WHERE id = @Id;
+END
+
+---------------------------------------------- */
+/*
+CREATE PROCEDURE spEliminarFacturaDetalles
+    @Id INT
+AS
+BEGIN
+    DELETE FROM FacturaDetalles WHERE id = @Id;
+END
+---------------------------------------------------------*/
+

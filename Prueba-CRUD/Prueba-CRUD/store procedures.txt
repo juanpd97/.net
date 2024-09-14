@@ -1,0 +1,24 @@
+Tabla Cliente:
+spInsertarCliente - Crear un nuevo cliente.
+spLeerClientes - Leer todos los clientes.
+spLeerClientePorId - Leer un cliente por su ID.
+spActualizarCliente - Actualizar un cliente existente.
+spEliminarCliente - Eliminar un cliente por su ID.
+Tabla Producto:
+spInsertarProducto - Crear un nuevo producto.
+spLeerProductos - Leer todos los productos.
+spLeerProductoPorId - Leer un producto por su ID.
+spActualizarProducto - Actualizar un producto existente.
+spEliminarProducto - Eliminar un producto por su ID.
+Tabla Factura:
+spInsertarFactura - Crear una nueva factura.
+spLeerFacturas - Leer todas las facturas.
+spLeerFacturaPorId - Leer una factura por su ID.
+spActualizarFactura - Actualizar una factura existente.
+spEliminarFactura - Eliminar una factura por su ID.
+Tabla FacturaDetalles:
+spInsertarFacturaDetalles - Crear detalles de una factura.
+spLeerFacturaDetalles - Leer todos los detalles de facturas.
+spLeerFacturaDetallesPorFacturaId - Leer detalles de factura por su FacturaId.
+spActualizarFacturaDetalles - Actualizar detalles de una factura existente.
+spEliminarFacturaDetalles - Eliminar detalles de una factura por su ID.
