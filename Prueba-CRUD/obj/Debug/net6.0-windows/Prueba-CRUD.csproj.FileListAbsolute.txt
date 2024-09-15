@@ -1,0 +1,169 @@
+C:\Users\juanp\OneDrive\Escritorio\prueba crud\tutorialYT\tutorialYT\bin\Debug\net6.0-windows\Prueba-CRUD.exe
+C:\Users\juanp\OneDrive\Escritorio\prueba crud\tutorialYT\tutorialYT\bin\Debug\net6.0-windows\Prueba-CRUD.deps.json
+C:\Users\juanp\OneDrive\Escritorio\prueba crud\tutorialYT\tutorialYT\bin\Debug\net6.0-windows\Prueba-CRUD.runtimeconfig.json
+C:\Users\juanp\OneDrive\Escritorio\prueba crud\tutorialYT\tutorialYT\bin\Debug\net6.0-windows\Prueba-CRUD.dll
+C:\Users\juanp\OneDrive\Escritorio\prueba crud\tutorialYT\tutorialYT\bin\Debug\net6.0-windows\Prueba-CRUD.pdb
+C:\Users\juanp\OneDrive\Escritorio\prueba crud\tutorialYT\tutorialYT\bin\Debug\net6.0-windows\Azure.Core.dll
+C:\Users\juanp\OneDrive\Escritorio\prueba crud\tutorialYT\tutorialYT\bin\Debug\net6.0-windows\Azure.Identity.dll
+C:\Users\juanp\OneDrive\Escritorio\prueba crud\tutorialYT\tutorialYT\bin\Debug\net6.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\juanp\OneDrive\Escritorio\prueba crud\tutorialYT\tutorialYT\bin\Debug\net6.0-windows\Microsoft.Data.SqlClient.dll
+C:\Users\juanp\OneDrive\Escritorio\prueba crud\tutorialYT\tutorialYT\bin\Debug\net6.0-windows\Microsoft.Identity.Client.dll
+C:\Users\juanp\OneDrive\Escritorio\prueba crud\tutorialYT\tutorialYT\bin\Debug\net6.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\juanp\OneDrive\Escritorio\prueba crud\tutorialYT\tutorialYT\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\juanp\OneDrive\Escritorio\prueba crud\tutorialYT\tutorialYT\bin\Debug\net6.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\juanp\OneDrive\Escritorio\prueba crud\tutorialYT\tutorialYT\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Logging.dll
+C:\Users\juanp\OneDrive\Escritorio\prueba crud\tutorialYT\tutorialYT\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.dll
+C:\Users\juanp\OneDrive\Escritorio\prueba crud\tutorialYT\tutorialYT\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\juanp\OneDrive\Escritorio\prueba crud\tutorialYT\tutorialYT\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Tokens.dll
+C:\Users\juanp\OneDrive\Escritorio\prueba crud\tutorialYT\tutorialYT\bin\Debug\net6.0-windows\Microsoft.SqlServer.Server.dll
+C:\Users\juanp\OneDrive\Escritorio\prueba crud\tutorialYT\tutorialYT\bin\Debug\net6.0-windows\System.ClientModel.dll
+C:\Users\juanp\OneDrive\Escritorio\prueba crud\tutorialYT\tutorialYT\bin\Debug\net6.0-windows\System.Configuration.ConfigurationManager.dll
+C:\Users\juanp\OneDrive\Escritorio\prueba crud\tutorialYT\tutorialYT\bin\Debug\net6.0-windows\System.Diagnostics.DiagnosticSource.dll
+C:\Users\juanp\OneDrive\Escritorio\prueba crud\tutorialYT\tutorialYT\bin\Debug\net6.0-windows\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\juanp\OneDrive\Escritorio\prueba crud\tutorialYT\tutorialYT\bin\Debug\net6.0-windows\System.Memory.Data.dll
+C:\Users\juanp\OneDrive\Escritorio\prueba crud\tutorialYT\tutorialYT\bin\Debug\net6.0-windows\System.Runtime.Caching.dll
+C:\Users\juanp\OneDrive\Escritorio\prueba crud\tutorialYT\tutorialYT\bin\Debug\net6.0-windows\de\Microsoft.Data.SqlClient.resources.dll
+C:\Users\juanp\OneDrive\Escritorio\prueba crud\tutorialYT\tutorialYT\bin\Debug\net6.0-windows\es\Microsoft.Data.SqlClient.resources.dll
+C:\Users\juanp\OneDrive\Escritorio\prueba crud\tutorialYT\tutorialYT\bin\Debug\net6.0-windows\fr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\juanp\OneDrive\Escritorio\prueba crud\tutorialYT\tutorialYT\bin\Debug\net6.0-windows\it\Microsoft.Data.SqlClient.resources.dll
+C:\Users\juanp\OneDrive\Escritorio\prueba crud\tutorialYT\tutorialYT\bin\Debug\net6.0-windows\ja\Microsoft.Data.SqlClient.resources.dll
+C:\Users\juanp\OneDrive\Escritorio\prueba crud\tutorialYT\tutorialYT\bin\Debug\net6.0-windows\ko\Microsoft.Data.SqlClient.resources.dll
+C:\Users\juanp\OneDrive\Escritorio\prueba crud\tutorialYT\tutorialYT\bin\Debug\net6.0-windows\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\Users\juanp\OneDrive\Escritorio\prueba crud\tutorialYT\tutorialYT\bin\Debug\net6.0-windows\ru\Microsoft.Data.SqlClient.resources.dll
+C:\Users\juanp\OneDrive\Escritorio\prueba crud\tutorialYT\tutorialYT\bin\Debug\net6.0-windows\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\Users\juanp\OneDrive\Escritorio\prueba crud\tutorialYT\tutorialYT\bin\Debug\net6.0-windows\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\Users\juanp\OneDrive\Escritorio\prueba crud\tutorialYT\tutorialYT\bin\Debug\net6.0-windows\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\juanp\OneDrive\Escritorio\prueba crud\tutorialYT\tutorialYT\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\juanp\OneDrive\Escritorio\prueba crud\tutorialYT\tutorialYT\bin\Debug\net6.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\juanp\OneDrive\Escritorio\prueba crud\tutorialYT\tutorialYT\bin\Debug\net6.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\juanp\OneDrive\Escritorio\prueba crud\tutorialYT\tutorialYT\bin\Debug\net6.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\juanp\OneDrive\Escritorio\prueba crud\tutorialYT\tutorialYT\bin\Debug\net6.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\juanp\OneDrive\Escritorio\prueba crud\tutorialYT\tutorialYT\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\juanp\OneDrive\Escritorio\prueba crud\tutorialYT\tutorialYT\obj\Debug\net6.0-windows\Prueba-CRUD.csproj.AssemblyReference.cache
+C:\Users\juanp\OneDrive\Escritorio\prueba crud\tutorialYT\tutorialYT\obj\Debug\net6.0-windows\tutorialYT.view.FormMain.resources
+C:\Users\juanp\OneDrive\Escritorio\prueba crud\tutorialYT\tutorialYT\obj\Debug\net6.0-windows\tutorialYT.view.FormNuevoCliente.resources
+C:\Users\juanp\OneDrive\Escritorio\prueba crud\tutorialYT\tutorialYT\obj\Debug\net6.0-windows\tutorialYT.view.MostrarCliente.resources
+C:\Users\juanp\OneDrive\Escritorio\prueba crud\tutorialYT\tutorialYT\obj\Debug\net6.0-windows\Prueba-CRUD.csproj.GenerateResource.cache
+C:\Users\juanp\OneDrive\Escritorio\prueba crud\tutorialYT\tutorialYT\obj\Debug\net6.0-windows\Prueba-CRUD.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\juanp\OneDrive\Escritorio\prueba crud\tutorialYT\tutorialYT\obj\Debug\net6.0-windows\Prueba-CRUD.AssemblyInfoInputs.cache
+C:\Users\juanp\OneDrive\Escritorio\prueba crud\tutorialYT\tutorialYT\obj\Debug\net6.0-windows\Prueba-CRUD.AssemblyInfo.cs
+C:\Users\juanp\OneDrive\Escritorio\prueba crud\tutorialYT\tutorialYT\obj\Debug\net6.0-windows\Prueba-CRUD.csproj.CoreCompileInputs.cache
+C:\Users\juanp\OneDrive\Escritorio\prueba crud\tutorialYT\tutorialYT\obj\Debug\net6.0-windows\Prueba-C.3D734101.Up2Date
+C:\Users\juanp\OneDrive\Escritorio\prueba crud\tutorialYT\tutorialYT\obj\Debug\net6.0-windows\Prueba-CRUD.dll
+C:\Users\juanp\OneDrive\Escritorio\prueba crud\tutorialYT\tutorialYT\obj\Debug\net6.0-windows\refint\Prueba-CRUD.dll
+C:\Users\juanp\OneDrive\Escritorio\prueba crud\tutorialYT\tutorialYT\obj\Debug\net6.0-windows\Prueba-CRUD.pdb
+C:\Users\juanp\OneDrive\Escritorio\prueba crud\tutorialYT\tutorialYT\obj\Debug\net6.0-windows\Prueba-CRUD.genruntimeconfig.cache
+C:\Users\juanp\OneDrive\Escritorio\prueba crud\tutorialYT\tutorialYT\obj\Debug\net6.0-windows\ref\Prueba-CRUD.dll
+C:\Users\juanp\OneDrive\Escritorio\prueba crud\Prueba-CRUD\Prueba-CRUD\bin\Debug\net6.0-windows\Prueba-CRUD.exe
+C:\Users\juanp\OneDrive\Escritorio\prueba crud\Prueba-CRUD\Prueba-CRUD\bin\Debug\net6.0-windows\Prueba-CRUD.deps.json
+C:\Users\juanp\OneDrive\Escritorio\prueba crud\Prueba-CRUD\Prueba-CRUD\bin\Debug\net6.0-windows\Prueba-CRUD.runtimeconfig.json
+C:\Users\juanp\OneDrive\Escritorio\prueba crud\Prueba-CRUD\Prueba-CRUD\bin\Debug\net6.0-windows\Prueba-CRUD.dll
+C:\Users\juanp\OneDrive\Escritorio\prueba crud\Prueba-CRUD\Prueba-CRUD\bin\Debug\net6.0-windows\Prueba-CRUD.pdb
+C:\Users\juanp\OneDrive\Escritorio\prueba crud\Prueba-CRUD\Prueba-CRUD\bin\Debug\net6.0-windows\Azure.Core.dll
+C:\Users\juanp\OneDrive\Escritorio\prueba crud\Prueba-CRUD\Prueba-CRUD\bin\Debug\net6.0-windows\Azure.Identity.dll
+C:\Users\juanp\OneDrive\Escritorio\prueba crud\Prueba-CRUD\Prueba-CRUD\bin\Debug\net6.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\juanp\OneDrive\Escritorio\prueba crud\Prueba-CRUD\Prueba-CRUD\bin\Debug\net6.0-windows\Microsoft.Data.SqlClient.dll
+C:\Users\juanp\OneDrive\Escritorio\prueba crud\Prueba-CRUD\Prueba-CRUD\bin\Debug\net6.0-windows\Microsoft.Identity.Client.dll
+C:\Users\juanp\OneDrive\Escritorio\prueba crud\Prueba-CRUD\Prueba-CRUD\bin\Debug\net6.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\juanp\OneDrive\Escritorio\prueba crud\Prueba-CRUD\Prueba-CRUD\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\juanp\OneDrive\Escritorio\prueba crud\Prueba-CRUD\Prueba-CRUD\bin\Debug\net6.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\juanp\OneDrive\Escritorio\prueba crud\Prueba-CRUD\Prueba-CRUD\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Logging.dll
+C:\Users\juanp\OneDrive\Escritorio\prueba crud\Prueba-CRUD\Prueba-CRUD\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.dll
+C:\Users\juanp\OneDrive\Escritorio\prueba crud\Prueba-CRUD\Prueba-CRUD\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\juanp\OneDrive\Escritorio\prueba crud\Prueba-CRUD\Prueba-CRUD\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Tokens.dll
+C:\Users\juanp\OneDrive\Escritorio\prueba crud\Prueba-CRUD\Prueba-CRUD\bin\Debug\net6.0-windows\Microsoft.SqlServer.Server.dll
+C:\Users\juanp\OneDrive\Escritorio\prueba crud\Prueba-CRUD\Prueba-CRUD\bin\Debug\net6.0-windows\System.ClientModel.dll
+C:\Users\juanp\OneDrive\Escritorio\prueba crud\Prueba-CRUD\Prueba-CRUD\bin\Debug\net6.0-windows\System.Configuration.ConfigurationManager.dll
+C:\Users\juanp\OneDrive\Escritorio\prueba crud\Prueba-CRUD\Prueba-CRUD\bin\Debug\net6.0-windows\System.Diagnostics.DiagnosticSource.dll
+C:\Users\juanp\OneDrive\Escritorio\prueba crud\Prueba-CRUD\Prueba-CRUD\bin\Debug\net6.0-windows\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\juanp\OneDrive\Escritorio\prueba crud\Prueba-CRUD\Prueba-CRUD\bin\Debug\net6.0-windows\System.Memory.Data.dll
+C:\Users\juanp\OneDrive\Escritorio\prueba crud\Prueba-CRUD\Prueba-CRUD\bin\Debug\net6.0-windows\System.Runtime.Caching.dll
+C:\Users\juanp\OneDrive\Escritorio\prueba crud\Prueba-CRUD\Prueba-CRUD\bin\Debug\net6.0-windows\de\Microsoft.Data.SqlClient.resources.dll
+C:\Users\juanp\OneDrive\Escritorio\prueba crud\Prueba-CRUD\Prueba-CRUD\bin\Debug\net6.0-windows\es\Microsoft.Data.SqlClient.resources.dll
+C:\Users\juanp\OneDrive\Escritorio\prueba crud\Prueba-CRUD\Prueba-CRUD\bin\Debug\net6.0-windows\fr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\juanp\OneDrive\Escritorio\prueba crud\Prueba-CRUD\Prueba-CRUD\bin\Debug\net6.0-windows\it\Microsoft.Data.SqlClient.resources.dll
+C:\Users\juanp\OneDrive\Escritorio\prueba crud\Prueba-CRUD\Prueba-CRUD\bin\Debug\net6.0-windows\ja\Microsoft.Data.SqlClient.resources.dll
+C:\Users\juanp\OneDrive\Escritorio\prueba crud\Prueba-CRUD\Prueba-CRUD\bin\Debug\net6.0-windows\ko\Microsoft.Data.SqlClient.resources.dll
+C:\Users\juanp\OneDrive\Escritorio\prueba crud\Prueba-CRUD\Prueba-CRUD\bin\Debug\net6.0-windows\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\Users\juanp\OneDrive\Escritorio\prueba crud\Prueba-CRUD\Prueba-CRUD\bin\Debug\net6.0-windows\ru\Microsoft.Data.SqlClient.resources.dll
+C:\Users\juanp\OneDrive\Escritorio\prueba crud\Prueba-CRUD\Prueba-CRUD\bin\Debug\net6.0-windows\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\Users\juanp\OneDrive\Escritorio\prueba crud\Prueba-CRUD\Prueba-CRUD\bin\Debug\net6.0-windows\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\Users\juanp\OneDrive\Escritorio\prueba crud\Prueba-CRUD\Prueba-CRUD\bin\Debug\net6.0-windows\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\juanp\OneDrive\Escritorio\prueba crud\Prueba-CRUD\Prueba-CRUD\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\juanp\OneDrive\Escritorio\prueba crud\Prueba-CRUD\Prueba-CRUD\bin\Debug\net6.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\juanp\OneDrive\Escritorio\prueba crud\Prueba-CRUD\Prueba-CRUD\bin\Debug\net6.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\juanp\OneDrive\Escritorio\prueba crud\Prueba-CRUD\Prueba-CRUD\bin\Debug\net6.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\juanp\OneDrive\Escritorio\prueba crud\Prueba-CRUD\Prueba-CRUD\bin\Debug\net6.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\juanp\OneDrive\Escritorio\prueba crud\Prueba-CRUD\Prueba-CRUD\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\juanp\OneDrive\Escritorio\prueba crud\Prueba-CRUD\Prueba-CRUD\obj\Debug\net6.0-windows\Prueba-CRUD.csproj.AssemblyReference.cache
+C:\Users\juanp\OneDrive\Escritorio\prueba crud\Prueba-CRUD\Prueba-CRUD\obj\Debug\net6.0-windows\tutorialYT.view.FormMain.resources
+C:\Users\juanp\OneDrive\Escritorio\prueba crud\Prueba-CRUD\Prueba-CRUD\obj\Debug\net6.0-windows\tutorialYT.view.FormNuevoCliente.resources
+C:\Users\juanp\OneDrive\Escritorio\prueba crud\Prueba-CRUD\Prueba-CRUD\obj\Debug\net6.0-windows\tutorialYT.view.MostrarCliente.resources
+C:\Users\juanp\OneDrive\Escritorio\prueba crud\Prueba-CRUD\Prueba-CRUD\obj\Debug\net6.0-windows\Prueba-CRUD.csproj.GenerateResource.cache
+C:\Users\juanp\OneDrive\Escritorio\prueba crud\Prueba-CRUD\Prueba-CRUD\obj\Debug\net6.0-windows\Prueba-CRUD.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\juanp\OneDrive\Escritorio\prueba crud\Prueba-CRUD\Prueba-CRUD\obj\Debug\net6.0-windows\Prueba-CRUD.AssemblyInfoInputs.cache
+C:\Users\juanp\OneDrive\Escritorio\prueba crud\Prueba-CRUD\Prueba-CRUD\obj\Debug\net6.0-windows\Prueba-CRUD.AssemblyInfo.cs
+C:\Users\juanp\OneDrive\Escritorio\prueba crud\Prueba-CRUD\Prueba-CRUD\obj\Debug\net6.0-windows\Prueba-CRUD.csproj.CoreCompileInputs.cache
+C:\Users\juanp\OneDrive\Escritorio\prueba crud\Prueba-CRUD\Prueba-CRUD\obj\Debug\net6.0-windows\Prueba-C.3D734101.Up2Date
+C:\Users\juanp\OneDrive\Escritorio\prueba crud\Prueba-CRUD\Prueba-CRUD\obj\Debug\net6.0-windows\Prueba-CRUD.dll
+C:\Users\juanp\OneDrive\Escritorio\prueba crud\Prueba-CRUD\Prueba-CRUD\obj\Debug\net6.0-windows\refint\Prueba-CRUD.dll
+C:\Users\juanp\OneDrive\Escritorio\prueba crud\Prueba-CRUD\Prueba-CRUD\obj\Debug\net6.0-windows\Prueba-CRUD.pdb
+C:\Users\juanp\OneDrive\Escritorio\prueba crud\Prueba-CRUD\Prueba-CRUD\obj\Debug\net6.0-windows\Prueba-CRUD.genruntimeconfig.cache
+C:\Users\juanp\OneDrive\Escritorio\prueba crud\Prueba-CRUD\Prueba-CRUD\obj\Debug\net6.0-windows\ref\Prueba-CRUD.dll
+C:\Users\juanp\OneDrive\Documentos\.net\Prueba-CRUD\bin\Debug\net6.0-windows\Prueba-CRUD.exe
+C:\Users\juanp\OneDrive\Documentos\.net\Prueba-CRUD\bin\Debug\net6.0-windows\Prueba-CRUD.deps.json
+C:\Users\juanp\OneDrive\Documentos\.net\Prueba-CRUD\bin\Debug\net6.0-windows\Prueba-CRUD.runtimeconfig.json
+C:\Users\juanp\OneDrive\Documentos\.net\Prueba-CRUD\bin\Debug\net6.0-windows\Prueba-CRUD.dll
+C:\Users\juanp\OneDrive\Documentos\.net\Prueba-CRUD\bin\Debug\net6.0-windows\Prueba-CRUD.pdb
+C:\Users\juanp\OneDrive\Documentos\.net\Prueba-CRUD\bin\Debug\net6.0-windows\Azure.Core.dll
+C:\Users\juanp\OneDrive\Documentos\.net\Prueba-CRUD\bin\Debug\net6.0-windows\Azure.Identity.dll
+C:\Users\juanp\OneDrive\Documentos\.net\Prueba-CRUD\bin\Debug\net6.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\juanp\OneDrive\Documentos\.net\Prueba-CRUD\bin\Debug\net6.0-windows\Microsoft.Data.SqlClient.dll
+C:\Users\juanp\OneDrive\Documentos\.net\Prueba-CRUD\bin\Debug\net6.0-windows\Microsoft.Identity.Client.dll
+C:\Users\juanp\OneDrive\Documentos\.net\Prueba-CRUD\bin\Debug\net6.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\juanp\OneDrive\Documentos\.net\Prueba-CRUD\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\juanp\OneDrive\Documentos\.net\Prueba-CRUD\bin\Debug\net6.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\juanp\OneDrive\Documentos\.net\Prueba-CRUD\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Logging.dll
+C:\Users\juanp\OneDrive\Documentos\.net\Prueba-CRUD\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.dll
+C:\Users\juanp\OneDrive\Documentos\.net\Prueba-CRUD\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\juanp\OneDrive\Documentos\.net\Prueba-CRUD\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Tokens.dll
+C:\Users\juanp\OneDrive\Documentos\.net\Prueba-CRUD\bin\Debug\net6.0-windows\Microsoft.SqlServer.Server.dll
+C:\Users\juanp\OneDrive\Documentos\.net\Prueba-CRUD\bin\Debug\net6.0-windows\System.ClientModel.dll
+C:\Users\juanp\OneDrive\Documentos\.net\Prueba-CRUD\bin\Debug\net6.0-windows\System.Configuration.ConfigurationManager.dll
+C:\Users\juanp\OneDrive\Documentos\.net\Prueba-CRUD\bin\Debug\net6.0-windows\System.Diagnostics.DiagnosticSource.dll
+C:\Users\juanp\OneDrive\Documentos\.net\Prueba-CRUD\bin\Debug\net6.0-windows\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\juanp\OneDrive\Documentos\.net\Prueba-CRUD\bin\Debug\net6.0-windows\System.Memory.Data.dll
+C:\Users\juanp\OneDrive\Documentos\.net\Prueba-CRUD\bin\Debug\net6.0-windows\System.Runtime.Caching.dll
+C:\Users\juanp\OneDrive\Documentos\.net\Prueba-CRUD\bin\Debug\net6.0-windows\de\Microsoft.Data.SqlClient.resources.dll
+C:\Users\juanp\OneDrive\Documentos\.net\Prueba-CRUD\bin\Debug\net6.0-windows\es\Microsoft.Data.SqlClient.resources.dll
+C:\Users\juanp\OneDrive\Documentos\.net\Prueba-CRUD\bin\Debug\net6.0-windows\fr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\juanp\OneDrive\Documentos\.net\Prueba-CRUD\bin\Debug\net6.0-windows\it\Microsoft.Data.SqlClient.resources.dll
+C:\Users\juanp\OneDrive\Documentos\.net\Prueba-CRUD\bin\Debug\net6.0-windows\ja\Microsoft.Data.SqlClient.resources.dll
+C:\Users\juanp\OneDrive\Documentos\.net\Prueba-CRUD\bin\Debug\net6.0-windows\ko\Microsoft.Data.SqlClient.resources.dll
+C:\Users\juanp\OneDrive\Documentos\.net\Prueba-CRUD\bin\Debug\net6.0-windows\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\Users\juanp\OneDrive\Documentos\.net\Prueba-CRUD\bin\Debug\net6.0-windows\ru\Microsoft.Data.SqlClient.resources.dll
+C:\Users\juanp\OneDrive\Documentos\.net\Prueba-CRUD\bin\Debug\net6.0-windows\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\Users\juanp\OneDrive\Documentos\.net\Prueba-CRUD\bin\Debug\net6.0-windows\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\Users\juanp\OneDrive\Documentos\.net\Prueba-CRUD\bin\Debug\net6.0-windows\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\juanp\OneDrive\Documentos\.net\Prueba-CRUD\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\juanp\OneDrive\Documentos\.net\Prueba-CRUD\bin\Debug\net6.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\juanp\OneDrive\Documentos\.net\Prueba-CRUD\bin\Debug\net6.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\juanp\OneDrive\Documentos\.net\Prueba-CRUD\bin\Debug\net6.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\juanp\OneDrive\Documentos\.net\Prueba-CRUD\bin\Debug\net6.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\juanp\OneDrive\Documentos\.net\Prueba-CRUD\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\juanp\OneDrive\Documentos\.net\Prueba-CRUD\obj\Debug\net6.0-windows\Prueba-CRUD.csproj.AssemblyReference.cache
+C:\Users\juanp\OneDrive\Documentos\.net\Prueba-CRUD\obj\Debug\net6.0-windows\tutorialYT.view.FormMain.resources
+C:\Users\juanp\OneDrive\Documentos\.net\Prueba-CRUD\obj\Debug\net6.0-windows\tutorialYT.view.FormNuevoCliente.resources
+C:\Users\juanp\OneDrive\Documentos\.net\Prueba-CRUD\obj\Debug\net6.0-windows\tutorialYT.view.MostrarCliente.resources
+C:\Users\juanp\OneDrive\Documentos\.net\Prueba-CRUD\obj\Debug\net6.0-windows\Prueba-CRUD.csproj.GenerateResource.cache
+C:\Users\juanp\OneDrive\Documentos\.net\Prueba-CRUD\obj\Debug\net6.0-windows\Prueba-CRUD.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\juanp\OneDrive\Documentos\.net\Prueba-CRUD\obj\Debug\net6.0-windows\Prueba-CRUD.AssemblyInfoInputs.cache
+C:\Users\juanp\OneDrive\Documentos\.net\Prueba-CRUD\obj\Debug\net6.0-windows\Prueba-CRUD.AssemblyInfo.cs
+C:\Users\juanp\OneDrive\Documentos\.net\Prueba-CRUD\obj\Debug\net6.0-windows\Prueba-CRUD.csproj.CoreCompileInputs.cache
+C:\Users\juanp\OneDrive\Documentos\.net\Prueba-CRUD\obj\Debug\net6.0-windows\Prueba-CRUD.sourcelink.json
+C:\Users\juanp\OneDrive\Documentos\.net\Prueba-CRUD\obj\Debug\net6.0-windows\Prueba-C.3D734101.Up2Date
+C:\Users\juanp\OneDrive\Documentos\.net\Prueba-CRUD\obj\Debug\net6.0-windows\Prueba-CRUD.dll
+C:\Users\juanp\OneDrive\Documentos\.net\Prueba-CRUD\obj\Debug\net6.0-windows\refint\Prueba-CRUD.dll
+C:\Users\juanp\OneDrive\Documentos\.net\Prueba-CRUD\obj\Debug\net6.0-windows\Prueba-CRUD.pdb
+C:\Users\juanp\OneDrive\Documentos\.net\Prueba-CRUD\obj\Debug\net6.0-windows\Prueba-CRUD.genruntimeconfig.cache
+C:\Users\juanp\OneDrive\Documentos\.net\Prueba-CRUD\obj\Debug\net6.0-windows\ref\Prueba-CRUD.dll
