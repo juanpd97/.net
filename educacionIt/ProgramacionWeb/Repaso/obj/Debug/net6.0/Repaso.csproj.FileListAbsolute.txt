@@ -1,0 +1,15 @@
+C:\Users\juanp\OneDrive\Documentos\.net\educacionIt\ProgramacionWeb\Repaso\bin\Debug\net6.0\Repaso.exe
+C:\Users\juanp\OneDrive\Documentos\.net\educacionIt\ProgramacionWeb\Repaso\bin\Debug\net6.0\Repaso.deps.json
+C:\Users\juanp\OneDrive\Documentos\.net\educacionIt\ProgramacionWeb\Repaso\bin\Debug\net6.0\Repaso.runtimeconfig.json
+C:\Users\juanp\OneDrive\Documentos\.net\educacionIt\ProgramacionWeb\Repaso\bin\Debug\net6.0\Repaso.dll
+C:\Users\juanp\OneDrive\Documentos\.net\educacionIt\ProgramacionWeb\Repaso\bin\Debug\net6.0\Repaso.pdb
+C:\Users\juanp\OneDrive\Documentos\.net\educacionIt\ProgramacionWeb\Repaso\obj\Debug\net6.0\Repaso.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\juanp\OneDrive\Documentos\.net\educacionIt\ProgramacionWeb\Repaso\obj\Debug\net6.0\Repaso.AssemblyInfoInputs.cache
+C:\Users\juanp\OneDrive\Documentos\.net\educacionIt\ProgramacionWeb\Repaso\obj\Debug\net6.0\Repaso.AssemblyInfo.cs
+C:\Users\juanp\OneDrive\Documentos\.net\educacionIt\ProgramacionWeb\Repaso\obj\Debug\net6.0\Repaso.csproj.CoreCompileInputs.cache
+C:\Users\juanp\OneDrive\Documentos\.net\educacionIt\ProgramacionWeb\Repaso\obj\Debug\net6.0\Repaso.sourcelink.json
+C:\Users\juanp\OneDrive\Documentos\.net\educacionIt\ProgramacionWeb\Repaso\obj\Debug\net6.0\Repaso.dll
+C:\Users\juanp\OneDrive\Documentos\.net\educacionIt\ProgramacionWeb\Repaso\obj\Debug\net6.0\refint\Repaso.dll
+C:\Users\juanp\OneDrive\Documentos\.net\educacionIt\ProgramacionWeb\Repaso\obj\Debug\net6.0\Repaso.pdb
+C:\Users\juanp\OneDrive\Documentos\.net\educacionIt\ProgramacionWeb\Repaso\obj\Debug\net6.0\Repaso.genruntimeconfig.cache
+C:\Users\juanp\OneDrive\Documentos\.net\educacionIt\ProgramacionWeb\Repaso\obj\Debug\net6.0\ref\Repaso.dll

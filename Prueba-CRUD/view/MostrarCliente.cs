@@ -44,13 +44,8 @@ namespace tutorialYT.view
 
         private void btnBuscarClientePorId_Click(object sender, EventArgs e)
         {
-            if (clienteController.buscarClientePorId(Convert.ToInt32(txtBuscarPorId.Text)) != null)
-            {
                 dataGridViewMostrarClientes.DataSource = clienteController.buscarClientePorId(Convert.ToInt32(txtBuscarPorId.Text));
-            }
-            else { MessageBox.Show("cliente no encontrado"); }
-
-
+         
         }
 
         private void label2_Click(object sender, EventArgs e)

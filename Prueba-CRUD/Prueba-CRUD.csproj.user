@@ -4,9 +4,6 @@
     <Compile Update="view\FormMain.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="view\FormModificarCliente.cs">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Update="view\FormNuevoCliente.cs">
       <SubType>Form</SubType>
     </Compile>
