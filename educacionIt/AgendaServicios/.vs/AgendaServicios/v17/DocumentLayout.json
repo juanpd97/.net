@@ -3,8 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\juanp\\OneDrive\\Documentos\\.net\\educacionIt\\AgendaServicios\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6FFCEA69-A9CF-4563-BE02-2B59B3CFC071}|AgendaServicios.web\\AgendaServicios.web.csproj|c:\\users\\juanp\\onedrive\\documentos\\.net\\educacionit\\agendaservicios\\agendaservicios.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{6FFCEA69-A9CF-4563-BE02-2B59B3CFC071}|AgendaServicios.web\\AgendaServicios.web.csproj|solutionrelative:agendaservicios.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{6FFCEA69-A9CF-4563-BE02-2B59B3CFC071}|AgendaServicios.web\\AgendaServicios.web.csproj|c:\\users\\juanp\\onedrive\\documentos\\.net\\educacionit\\agendaservicios\\agendaservicios.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6FFCEA69-A9CF-4563-BE02-2B59B3CFC071}|AgendaServicios.web\\AgendaServicios.web.csproj|solutionrelative:agendaservicios.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FFCEA69-A9CF-4563-BE02-2B59B3CFC071}|AgendaServicios.web\\AgendaServicios.web.csproj|c:\\users\\juanp\\onedrive\\documentos\\.net\\educacionit\\agendaservicios\\agendaservicios.web\\models\\turnosdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FFCEA69-A9CF-4563-BE02-2B59B3CFC071}|AgendaServicios.web\\AgendaServicios.web.csproj|solutionrelative:agendaservicios.web\\models\\turnosdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FFCEA69-A9CF-4563-BE02-2B59B3CFC071}|AgendaServicios.web\\AgendaServicios.web.csproj|c:\\users\\juanp\\onedrive\\documentos\\.net\\educacionit\\agendaservicios\\agendaservicios.web\\controllers\\estadosturnoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FFCEA69-A9CF-4563-BE02-2B59B3CFC071}|AgendaServicios.web\\AgendaServicios.web.csproj|solutionrelative:agendaservicios.web\\controllers\\estadosturnoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FFCEA69-A9CF-4563-BE02-2B59B3CFC071}|AgendaServicios.web\\AgendaServicios.web.csproj|c:\\users\\juanp\\onedrive\\documentos\\.net\\educacionit\\agendaservicios\\agendaservicios.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FFCEA69-A9CF-4563-BE02-2B59B3CFC071}|AgendaServicios.web\\AgendaServicios.web.csproj|solutionrelative:agendaservicios.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FFCEA69-A9CF-4563-BE02-2B59B3CFC071}|AgendaServicios.web\\AgendaServicios.web.csproj|c:\\users\\juanp\\onedrive\\documentos\\.net\\educacionit\\agendaservicios\\agendaservicios.web\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6FFCEA69-A9CF-4563-BE02-2B59B3CFC071}|AgendaServicios.web\\AgendaServicios.web.csproj|solutionrelative:agendaservicios.web\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,23 +30,76 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TurnosDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\juanp\\OneDrive\\Documentos\\.net\\educacionIt\\AgendaServicios\\AgendaServicios.web\\Models\\TurnosDbContext.cs",
+              "RelativeDocumentMoniker": "AgendaServicios.web\\Models\\TurnosDbContext.cs",
+              "ToolTip": "C:\\Users\\juanp\\OneDrive\\Documentos\\.net\\educacionIt\\AgendaServicios\\AgendaServicios.web\\Models\\TurnosDbContext.cs",
+              "RelativeToolTip": "AgendaServicios.web\\Models\\TurnosDbContext.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAA9wB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T00:11:59.423Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EstadosTurnosController.cs",
+              "DocumentMoniker": "C:\\Users\\juanp\\OneDrive\\Documentos\\.net\\educacionIt\\AgendaServicios\\AgendaServicios.web\\Controllers\\EstadosTurnosController.cs",
+              "RelativeDocumentMoniker": "AgendaServicios.web\\Controllers\\EstadosTurnosController.cs",
+              "ToolTip": "C:\\Users\\juanp\\OneDrive\\Documentos\\.net\\educacionIt\\AgendaServicios\\AgendaServicios.web\\Controllers\\EstadosTurnosController.cs",
+              "RelativeToolTip": "AgendaServicios.web\\Controllers\\EstadosTurnosController.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T00:28:57.323Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\juanp\\OneDrive\\Documentos\\.net\\educacionIt\\AgendaServicios\\AgendaServicios.web\\appsettings.json",
-              "RelativeDocumentMoniker": "AgendaServicios.web\\appsettings.json",
-              "ToolTip": "C:\\Users\\juanp\\OneDrive\\Documentos\\.net\\educacionIt\\AgendaServicios\\AgendaServicios.web\\appsettings.json",
-              "RelativeToolTip": "AgendaServicios.web\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAADAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-20T21:44:00.801Z",
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\juanp\\OneDrive\\Documentos\\.net\\educacionIt\\AgendaServicios\\AgendaServicios.web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "AgendaServicios.web\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\juanp\\OneDrive\\Documentos\\.net\\educacionIt\\AgendaServicios\\AgendaServicios.web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "AgendaServicios.web\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAABEAAAAAAAAAAAAkwB8AAABjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-24T00:23:44.078Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\juanp\\OneDrive\\Documentos\\.net\\educacionIt\\AgendaServicios\\AgendaServicios.web\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "AgendaServicios.web\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\juanp\\OneDrive\\Documentos\\.net\\educacionIt\\AgendaServicios\\AgendaServicios.web\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "AgendaServicios.web\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-24T00:23:35.35Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\juanp\\OneDrive\\Documentos\\.net\\educacionIt\\AgendaServicios\\AgendaServicios.web\\Program.cs",
+              "RelativeDocumentMoniker": "AgendaServicios.web\\Program.cs",
+              "ToolTip": "C:\\Users\\juanp\\OneDrive\\Documentos\\.net\\educacionIt\\AgendaServicios\\AgendaServicios.web\\Program.cs",
+              "RelativeToolTip": "AgendaServicios.web\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T00:14:46.437Z",
               "EditorCaption": ""
             }
           ]

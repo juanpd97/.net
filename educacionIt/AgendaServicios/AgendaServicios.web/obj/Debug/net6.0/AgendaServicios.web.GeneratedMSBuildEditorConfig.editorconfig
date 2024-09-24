@@ -18,6 +18,26 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\juanp\OneDrive\Documentos\.net\educacionIt\AgendaServicios\AgendaServicios.web
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/juanp/OneDrive/Documentos/.net/educacionIt/AgendaServicios/AgendaServicios.web/Views/EstadosTurnos/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0YWRvc1R1cm5vc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/juanp/OneDrive/Documentos/.net/educacionIt/AgendaServicios/AgendaServicios.web/Views/EstadosTurnos/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0YWRvc1R1cm5vc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/juanp/OneDrive/Documentos/.net/educacionIt/AgendaServicios/AgendaServicios.web/Views/EstadosTurnos/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0YWRvc1R1cm5vc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/juanp/OneDrive/Documentos/.net/educacionIt/AgendaServicios/AgendaServicios.web/Views/EstadosTurnos/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0YWRvc1R1cm5vc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/juanp/OneDrive/Documentos/.net/educacionIt/AgendaServicios/AgendaServicios.web/Views/EstadosTurnos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0YWRvc1R1cm5vc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/juanp/OneDrive/Documentos/.net/educacionIt/AgendaServicios/AgendaServicios.web/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -26,16 +46,32 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/juanp/OneDrive/Documentos/.net/educacionIt/AgendaServicios/AgendaServicios.web/Views/Prueba/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJ1ZWJhXEluZGV4LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/juanp/OneDrive/Documentos/.net/educacionIt/AgendaServicios/AgendaServicios.web/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/juanp/OneDrive/Documentos/.net/educacionIt/AgendaServicios/AgendaServicios.web/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/juanp/OneDrive/Documentos/.net/educacionIt/AgendaServicios/AgendaServicios.web/Views/TiposServicios/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwb3NTZXJ2aWNpb3NcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/juanp/OneDrive/Documentos/.net/educacionIt/AgendaServicios/AgendaServicios.web/Views/TiposServicios/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwb3NTZXJ2aWNpb3NcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/juanp/OneDrive/Documentos/.net/educacionIt/AgendaServicios/AgendaServicios.web/Views/TiposServicios/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwb3NTZXJ2aWNpb3NcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/juanp/OneDrive/Documentos/.net/educacionIt/AgendaServicios/AgendaServicios.web/Views/TiposServicios/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwb3NTZXJ2aWNpb3NcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/juanp/OneDrive/Documentos/.net/educacionIt/AgendaServicios/AgendaServicios.web/Views/TiposServicios/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwb3NTZXJ2aWNpb3NcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/juanp/OneDrive/Documentos/.net/educacionIt/AgendaServicios/AgendaServicios.web/Views/_ViewImports.cshtml]

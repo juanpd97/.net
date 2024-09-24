@@ -1,3 +1,6 @@
+using AgendaServicios.web.Models;
+using Microsoft.EntityFrameworkCore;
+
 namespace AgendaServicios.web
 {
     public class Program
@@ -5,6 +8,9 @@ namespace AgendaServicios.web
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
+
+            builder.Services.AddDbContext<TurnosDbContext>(options =>
+            options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();

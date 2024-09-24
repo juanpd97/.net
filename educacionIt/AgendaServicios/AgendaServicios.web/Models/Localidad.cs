@@ -1,10 +1,17 @@
-﻿namespace AgendaServicios.web.Models
+﻿using System;
+using System.Collections.Generic;
+
+namespace AgendaServicios.web.Models;
+
+public partial class Localidad
 {
-    public class Localidad
-    {
-        public int LocalidadId { get; set; }
-        public string Descripcion {  get; set; }
-        public int ProvinciaId { get; set; }
-        public Provincia Provincia { get; set; }
-    }
+    public int LocalidadId { get; set; }
+
+    public string Descripcion { get; set; } = null!;
+
+    public int ProvinciaId { get; set; }
+
+    public virtual ICollection<Cliente> Clientes { get; set; } = new List<Cliente>();
+
+    public virtual Provincium Provincia { get; set; } = null!;
 }
